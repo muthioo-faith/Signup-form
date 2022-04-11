@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding: 0;
    font-weight: sans-serif;
-   background-color: #97BAEE;
+   background-color: #5897f6;
+
+
 
 }
-.Signupbox{
+.signupbox{
     width:350px;
     height: 650px;
-    background:#BBDFFA;
+    background:#7fc2f5;
     color: black;
     top: 50%;
     left: 50%;
@@ -16,6 +18,8 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     border-radius: 3px;
+    border: 30%;
+
 }
 form{
     width: 300px;
@@ -32,19 +36,25 @@ form input{
     margin-top: 18px;
     font-size: 15px;
     padding: 5px;
-    color: blueviolet;
+    color: rgb(25, 22, 28);
     border-radius: 6px;
+    text-align: left;
 } 
 input[type="button"]{
     width: 320px;
     height: 320px;
     margin-top: 20px;
     font-size: 20px;
-    color: white;
+    color: rgb(235, 229, 229);
 }  
 h1{
-    text-align: center;
+    text-align: left;
     padding-top: 6px;
-} 
+}
+#btn
+{
+    background-color:lightblue;
+}
+ 
 
 
